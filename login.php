@@ -97,7 +97,7 @@ $data = $_SESSION['data'];
 <body>
     <div class="dashboard-card">
         <img src="https://unnes.ac.id/lppm/wp-content/uploads/sites/16/2023/02/logo-unnes-horizontal-white-yellow.png" alt="Logo UNNES">
-        <h2>Selamat Datang</h2>
+        <h2>Welcome</h2>
         <p><strong><?= htmlspecialchars($username) ?></strong>, Anda telah login sebanyak <strong><?= $login_count ?></strong> kali.</p>
         <a href="logout.php" class="btn btn-logout">Logout</a>
 
